@@ -1,17 +1,23 @@
 import requests
-import rdflib
-import StringIO
+import re
+
 
 ROOT_API = 'http://acropolis.org.uk/'
-class_name = 'http://www.w3.org/2004/02/skos/core#Concept'
-offset = '0'
+class_name = 'http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing'
+offset = '100050'
 
 params = {'class': class_name, 'offset' : offset}
 headers = {'Accept': 'text/turtle'}
 r = requests.get(ROOT_API, params=params, headers=headers)
 data = r.text
 
-print data
-
-graph = rdflib.Graph()
-graph.parse(StringIO.StringIO(data), format='turtle')
+for line in data.split('\n'):
+    m = re.match('^<(http://acropolis.org.uk/[0-9a-z]{32})#id>$', line)
+    if m != None:
+        pass
+        #print m.group(1)
+    m = re.search('xhtml:next <\/\?offset=(\d*)', line)
+    if m != None:
+        print line
+        print m.group(1)
+    
