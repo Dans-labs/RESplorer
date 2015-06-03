@@ -1,0 +1,67 @@
+2015-06-03 12:45:33,237 __main__       INFO   Processing /places
+2015-06-03 12:45:33,237 __main__       INFO   Fetching a list of http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+2015-06-03 12:51:24,252 __main__       ERROR  Error parsing http://acropolis.org.uk/?class=http%3A%2F%2Fwww.w3.org%2F2003%2F01%2Fgeo%2Fwgs84_pos%23SpatialThing&offset=20650
+2015-06-03 12:51:24,252 __main__       ERROR  '43' is not a valid language tag!
+2015-06-03 12:51:24,253 __main__       INFO   Got 20650 URIs to process
+2015-06-03 12:57:03,100 __main__       INFO   Store 20650 results in the DB
+2015-06-03 12:57:04,402 __main__       INFO   Processing /concepts
+2015-06-03 12:57:04,402 __main__       INFO   Fetching a list of http://www.w3.org/2004/02/skos/core#Concept
+2015-06-03 12:57:04,882 __main__       ERROR  Error parsing http://acropolis.org.uk/?class=http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23Concept&offset=0
+2015-06-03 12:57:04,882 __main__       ERROR  '43' is not a valid language tag!
+2015-06-03 12:57:04,883 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:04,883 __main__       INFO   Processing Concept
+2015-06-03 12:57:04,883 __main__       INFO   Fetching a list of http://www.w3.org/TR/skos-reference/#concepts
+2015-06-03 12:57:05,018 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:05,018 __main__       INFO   Processing /works
+2015-06-03 12:57:05,018 __main__       INFO   Fetching a list of http://purl.org/vocab/frbr/core#Work
+2015-06-03 12:57:17,870 __main__       INFO   Got 1705 URIs to process
+2015-06-03 12:57:36,856 __main__       INFO   Store 1705 results in the DB
+2015-06-03 12:57:36,950 __main__       INFO   Processing /people
+2015-06-03 12:57:36,950 __main__       INFO   Fetching a list of http://xmlns.com/foaf/0.1/Person
+2015-06-03 12:57:37,153 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:37,153 __main__       INFO   Processing People
+2015-06-03 12:57:37,153 __main__       INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Person
+2015-06-03 12:57:37,292 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:37,293 __main__       INFO   Processing /agents
+2015-06-03 12:57:37,293 __main__       INFO   Fetching a list of http://xmlns.com/foaf/0.1/Agent
+2015-06-03 12:57:37,436 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:37,437 __main__       INFO   Processing Work
+2015-06-03 12:57:37,437 __main__       INFO   Fetching a list of http://vocab.org/frbr/core.html#Work
+2015-06-03 12:57:37,624 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:37,624 __main__       INFO   Processing Agent
+2015-06-03 12:57:37,625 __main__       INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Agent
+2015-06-03 12:57:37,777 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:37,778 __main__       INFO   Processing Dataset
+2015-06-03 12:57:37,778 __main__       INFO   Fetching a list of http://rdfs.org/ns/void#Dataset
+2015-06-03 12:57:37,958 __main__       ERROR  Got a weird resource : file:///
+2015-06-03 12:57:38,097 __main__       ERROR  Got a weird resource : file:///?offset=25
+2015-06-03 12:57:38,097 __main__       ERROR  Got a weird resource : file:///
+2015-06-03 12:57:38,097 __main__       INFO   Got 34 URIs to process
+2015-06-03 12:57:39,612 __main__       INFO   Store 34 results in the DB
+2015-06-03 12:57:39,614 __main__       INFO   Processing /groups
+2015-06-03 12:57:39,614 __main__       INFO   Fetching a list of http://xmlns.com/foaf/0.1/Group
+2015-06-03 12:57:39,780 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:39,780 __main__       INFO   Processing Physical thing
+2015-06-03 12:57:39,780 __main__       INFO   Fetching a list of http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing
+2015-06-03 12:57:39,963 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:57:39,963 __main__       INFO   Processing /events
+2015-06-03 12:57:39,963 __main__       INFO   Fetching a list of http://purl.org/NET/c4dm/event.owl#Event
+2015-06-03 12:58:01,762 __main__       INFO   Got 2738 URIs to process
+2015-06-03 12:58:32,344 __main__       INFO   Store 2738 results in the DB
+2015-06-03 12:58:32,439 __main__       INFO   Processing Collection
+2015-06-03 12:58:32,439 __main__       INFO   Fetching a list of http://purl.org/dc/dcmitype/Collection
+2015-06-03 12:58:32,855 __main__       INFO   Got 34 URIs to process
+2015-06-03 12:58:34,450 __main__       INFO   Store 34 results in the DB
+2015-06-03 12:58:34,455 __main__       INFO   Processing Organization
+2015-06-03 12:58:34,456 __main__       INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Organization
+2015-06-03 12:58:34,594 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:58:34,594 __main__       INFO   Processing Document
+2015-06-03 12:58:34,594 __main__       INFO   Fetching a list of http://xmlns.com/foaf/0.1/Document
+2015-06-03 12:58:48,836 __main__       INFO   Got 2018 URIs to process
+2015-06-03 12:59:08,398 __main__       INFO   Store 2018 results in the DB
+2015-06-03 12:59:08,562 __main__       INFO   Processing Event
+2015-06-03 12:59:08,562 __main__       INFO   Fetching a list of http://motools.sourceforge.net/event/event.html#term_Event
+2015-06-03 12:59:08,785 __main__       INFO   Got 0 URIs to process
+2015-06-03 12:59:08,785 __main__       INFO   Processing Location
+2015-06-03 12:59:08,785 __main__       INFO   Fetching a list of http://www.w3.org/2003/01/geo/
+2015-06-03 12:59:08,921 __main__       INFO   Got 0 URIs to process
