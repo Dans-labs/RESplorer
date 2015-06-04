@@ -139,6 +139,8 @@ def process_classes(db, class_uri):
     db.posts.insert_many(results)
     
 if __name__ == '__main__':
+    return
+
     root_logger = logging.getLogger('')
     root_logger.setLevel(logging.INFO)
     logFormat = '%(asctime)s %(name)-10s %(levelname)-6s %(message)s'
