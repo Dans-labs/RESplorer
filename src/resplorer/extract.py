@@ -10,8 +10,9 @@ import urlparse
 import re
 import multiprocessing
 import signal
+import urllib2
 from pymongo.mongo_client import MongoClient
-from codes import STAT_SECOND_HAND, STAT_PUB_CHAIN, STAT_NB_SOURCES,\
+from codes import STAT_SECOND_HAND, STAT_PUB_CHAIN, STAT_SOURCES,\
     STAT_TRIPLES, DESC_URI, DESC_TYPE
 
 import logging
@@ -43,6 +44,8 @@ CLASSES = {'Agent'       : 'http://xmlns.com/foaf/spec/#term_Agent',
 #           '/works'      : 'http://purl.org/vocab/frbr/core#Work',
 #           }
 
+session_thread = requests.Session()
+
 def get_nq_locations(class_name):
     session = requests.Session()
     
@@ -53,22 +56,22 @@ def get_nq_locations(class_name):
     offset=0
     while offset != None:
         # Get
-        params = {'class': class_name, 'offset' : offset}
+        params = {'class': class_name, 'offset' : offset, 'limit':10000}
         headers = {'Accept': 'text/turtle'}
-        req = session.get(ROOT_API, params=params, headers=headers)
+        req = session.get(ROOT_API, params=params, headers=headers, stream=True)
         
         # Parse
         offset = None # Reset the offset for the next loop (if any)
         for line in req.iter_lines():
             m = re.match('^<(http://acropolis.org.uk/[0-9a-z]{32})#id>$', line)
             if m != None:
-                nq_locations.append(m.group(1) + '.nq')
+                loc = m.group(1) + '.nq'
+                nq_locations.append(loc)
                 continue
             m = re.search('xhtml:next <\/\?offset=(\d*)', line)
             if m != None:
                 offset = m.group(1)
                 continue
-        req.close()
     
     session.close()
         
@@ -76,23 +79,20 @@ def get_nq_locations(class_name):
 
 def parse_document(location):
     stats = {STAT_SECOND_HAND : 0,
-             STAT_NB_SOURCES : 0,
+             STAT_SOURCES : [],
              STAT_PUB_CHAIN : [],
              STAT_TRIPLES : 0,
              DESC_URI : location}
     
     try:
-        req = requests.get(location)
+        data = session_thread.get(location).text
         graph = rdflib.ConjunctiveGraph()
-        graph.parse(StringIO.StringIO(req.text), format='nquads')
-        req.close()
+        graph.parse(StringIO.StringIO(data), format='nquads')
         
-        contexts = [context for context in graph.contexts()]
-        stats[STAT_NB_SOURCES] = len(contexts)
-        for context in contexts:
+        for context in graph.contexts():
             source = urlparse.urlparse(context.identifier).hostname
-            if source == 'acropolis.org.uk':
-                continue
+            if source not in stats[STAT_SOURCES]:
+                stats[STAT_SOURCES].append(source)
             for subj, _, _ in graph.triples((None, None, None), context):
                 stats[STAT_TRIPLES] = stats[STAT_TRIPLES] + 1
                 authority = urlparse.urlparse(subj).hostname
@@ -107,8 +107,6 @@ def parse_document(location):
     
     return stats
     
-#'http://acropolis.org.uk/921df22045f949c5967a4d5e9dd0e653.nq'
-
 def init_worker():
     signal.signal(signal.SIGINT, signal.SIG_IGN)
     
@@ -122,7 +120,7 @@ def process_classes(db, class_uri):
     
     # Get all the data
     results = []
-    pool = multiprocessing.Pool(40, init_worker)
+    pool = multiprocessing.Pool(5, init_worker)
     try:
         results = pool.map(parse_document, locations)
         pool.close()
@@ -141,8 +139,6 @@ def process_classes(db, class_uri):
     db.posts.insert_many(results)
     
 if __name__ == '__main__':
-    return
-
     root_logger = logging.getLogger('')
     root_logger.setLevel(logging.INFO)
     logFormat = '%(asctime)s %(name)-10s %(levelname)-6s %(message)s'
@@ -157,6 +153,10 @@ if __name__ == '__main__':
     
     logging.getLogger("requests").setLevel(logging.WARNING)
     
+    #print parse_document('http://acropolis.org.uk/fb16889287d541ec85534ee7129b85c2.nq')
+    #print parse_document('http://acropolis.org.uk/407c1c08ecde41159f1b1b6e91eeaf50.nq')
+    #sys.exit(-1)
+    
     client = MongoClient()
     client.drop_database('RESplorer')
     db = client['RESplorer']
@@ -164,4 +164,5 @@ if __name__ == '__main__':
     for (name, uri) in CLASSES.iteritems():
         logger.info('Processing {}'.format(name))
         process_classes(db, uri)
-        
+
+    session_thread.close()

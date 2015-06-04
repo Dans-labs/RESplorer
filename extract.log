@@ -1,291 +1,61 @@
-2015-06-03 16:36:38,465 __main__   INFO   Processing /places
-2015-06-03 16:36:38,472 __main__   INFO   Fetching a list of http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
-2015-06-03 16:54:19,071 __main__   INFO   Got 72147 URIs to process
-2015-06-03 16:54:33,084 __main__   ERROR  Error processing http://acropolis.org.uk/2f64090791f3495d9d7e5168cbab73e7.nq
-2015-06-03 16:54:33,084 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:54:48,274 __main__   ERROR  Error processing http://acropolis.org.uk/ff2e06b6fc5249b7bf53e5819a27262b.nq
-2015-06-03 16:54:48,275 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:54:48,571 __main__   ERROR  Error processing http://acropolis.org.uk/201ea6232736460fb50a25d4ed6fad7b.nq
-2015-06-03 16:54:48,571 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:54:48,933 __main__   ERROR  Error processing http://acropolis.org.uk/49b460e1bced46ecbb0e702b4c9d6436.nq
-2015-06-03 16:54:48,933 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:54:53,771 __main__   ERROR  Error processing http://acropolis.org.uk/62c3c8eaaf354a55ae19e70fd1a2e079.nq
-2015-06-03 16:54:53,772 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:55:04,137 __main__   ERROR  Error processing http://acropolis.org.uk/eeee1db1fbe04b19b785f3e01c5939c0.nq
-2015-06-03 16:55:04,137 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:55:09,522 __main__   ERROR  Error processing http://acropolis.org.uk/47e37de6a0034727a491605bdca46ca3.nq
-2015-06-03 16:55:09,523 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:55:20,147 __main__   ERROR  Error processing http://acropolis.org.uk/03e5809e67be4cd1a6333293b8c08af2.nq
-2015-06-03 16:55:20,147 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:55:30,161 __main__   ERROR  Error processing http://acropolis.org.uk/3e0d378fb95146ee93ce0ca7decae774.nq
-2015-06-03 16:55:30,161 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:55:35,697 __main__   ERROR  Error processing http://acropolis.org.uk/8a25b44d98744d66a40496000bdb0159.nq
-2015-06-03 16:55:35,698 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:55:41,148 __main__   ERROR  Error processing http://acropolis.org.uk/0803eb02761440908bd8404beb571af9.nq
-2015-06-03 16:55:41,149 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:55:42,117 __main__   ERROR  Error processing http://acropolis.org.uk/baa821e80b2f44a2993de5f9a94429f2.nq
-2015-06-03 16:55:42,118 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:56:05,665 __main__   ERROR  Error processing http://acropolis.org.uk/0d50064ce4034c5a86ce2b4c2293d538.nq
-2015-06-03 16:56:05,666 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:56:58,538 __main__   ERROR  Error processing http://acropolis.org.uk/dcfff582d9ba4329952672cbc322f394.nq
-2015-06-03 16:56:58,539 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:57:11,146 __main__   ERROR  Error processing http://acropolis.org.uk/97c7bea8b661432fa96667c10e027a1a.nq
-2015-06-03 16:57:11,147 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:57:14,751 __main__   ERROR  Error processing http://acropolis.org.uk/c8ce3c3d12ff42d0b44fd7b3044d1932.nq
-2015-06-03 16:57:14,752 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:57:20,634 __main__   ERROR  Error processing http://acropolis.org.uk/01aef4cff11d4c158b3704854bdd7756.nq
-2015-06-03 16:57:20,635 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:57:30,682 __main__   ERROR  Error processing http://acropolis.org.uk/914f7ace40e54331b64285d27a67777f.nq
-2015-06-03 16:57:30,683 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:57:46,387 __main__   ERROR  Error processing http://acropolis.org.uk/215851fbe80f4632bfbb85d7671527a3.nq
-2015-06-03 16:57:46,387 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:57:46,398 __main__   ERROR  Error processing http://acropolis.org.uk/1cfe5ebcc7bd4eb1afbeda2be0fc2bf9.nq
-2015-06-03 16:57:46,399 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:57:46,411 __main__   ERROR  Error processing http://acropolis.org.uk/1ef9b3be1afd4e30a74fa2cb9625f399.nq
-2015-06-03 16:57:46,411 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:57:56,152 __main__   ERROR  Error processing http://acropolis.org.uk/41af3be1ca9a4e29a3168f42fd8e1c88.nq
-2015-06-03 16:57:56,153 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:03,620 __main__   ERROR  Error processing http://acropolis.org.uk/e3057355ff604f9a9cb731b053041285.nq
-2015-06-03 16:58:03,621 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:03,670 __main__   ERROR  Error processing http://acropolis.org.uk/7cba7e632fd34ea5b503431dfaef49c3.nq
-2015-06-03 16:58:03,670 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:16,222 __main__   ERROR  Error processing http://acropolis.org.uk/88d6bfaced3e470886b7a5979bae0e2b.nq
-2015-06-03 16:58:16,222 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:16,222 __main__   ERROR  Error processing http://acropolis.org.uk/b62071824bfd4360ae8ce3b41057dea5.nq
-2015-06-03 16:58:16,223 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:16,238 __main__   ERROR  Error processing http://acropolis.org.uk/468b8051444d4087983b9e1a61b082c8.nq
-2015-06-03 16:58:16,238 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:16,326 __main__   ERROR  Error processing http://acropolis.org.uk/05659c8b255c4d8fbb56a21e4e689b31.nq
-2015-06-03 16:58:16,327 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:31,377 __main__   ERROR  Error processing http://acropolis.org.uk/30b0c67ce3f040f59c21f494bc481bc0.nq
-2015-06-03 16:58:31,377 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:32,075 __main__   ERROR  Error processing http://acropolis.org.uk/cc465c666bae4789a8aaccec6af266c9.nq
-2015-06-03 16:58:32,076 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:58:57,341 __main__   ERROR  Error processing http://acropolis.org.uk/fa8abed735154ba1b437dc615f6713b3.nq
-2015-06-03 16:58:57,341 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:59:09,275 __main__   ERROR  Error processing http://acropolis.org.uk/cbd4ff82dd8b48888c1b1b6cee58fa34.nq
-2015-06-03 16:59:09,275 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:59:14,414 __main__   ERROR  Error processing http://acropolis.org.uk/1e0c2aa36bf4412f8cd80212baa6a146.nq
-2015-06-03 16:59:14,414 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:59:24,360 __main__   ERROR  Error processing http://acropolis.org.uk/092820e650ed4fe48c45a9a824bc8340.nq
-2015-06-03 16:59:24,360 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:59:24,366 __main__   ERROR  Error processing http://acropolis.org.uk/a4039cf86d8d4fec9b15ebc6c626fe05.nq
-2015-06-03 16:59:24,366 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:59:24,457 __main__   ERROR  Error processing http://acropolis.org.uk/170b1ce6a2154099b9aa47e42bce8b43.nq
-2015-06-03 16:59:24,458 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:59:29,433 __main__   ERROR  Error processing http://acropolis.org.uk/aece97d805b94b768ce485e6ec8ad425.nq
-2015-06-03 16:59:29,433 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 16:59:29,548 __main__   ERROR  Error processing http://acropolis.org.uk/7e6f972ed94b4448b7a928270bdef3bb.nq
-2015-06-03 16:59:29,549 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:00:26,035 __main__   ERROR  Error processing http://acropolis.org.uk/e9ff0e196f9949e186caac06c52563c0.nq
-2015-06-03 17:00:26,035 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:00:56,199 __main__   ERROR  Error processing http://acropolis.org.uk/8c179146febb49f4b66b4322394587e6.nq
-2015-06-03 17:00:56,199 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:01:01,235 __main__   ERROR  Error processing http://acropolis.org.uk/c3485e1f03584e73be5a45a7b980ae2c.nq
-2015-06-03 17:01:01,236 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:01:06,254 __main__   ERROR  Error processing http://acropolis.org.uk/9a04d47de7fe4f6891c020d51924dbe1.nq
-2015-06-03 17:01:06,254 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:01:27,560 __main__   ERROR  Error processing http://acropolis.org.uk/57acc1f9d227472a9828c714ce914ab8.nq
-2015-06-03 17:01:27,561 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:01:52,082 __main__   ERROR  Error processing http://acropolis.org.uk/2ecf74388aed4deb9bd02b761c0448fa.nq
-2015-06-03 17:01:52,083 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:02:01,262 __main__   ERROR  Error processing http://acropolis.org.uk/43d3e74e450e439a8555140c4e5b9cc6.nq
-2015-06-03 17:02:01,262 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:02:57,161 __main__   ERROR  Error processing http://acropolis.org.uk/4b20c05b46094121874876c76d30fb9d.nq
-2015-06-03 17:02:57,161 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:03:02,467 __main__   ERROR  Error processing http://acropolis.org.uk/79e88f47a8ce4733ac609d31211fbdb5.nq
-2015-06-03 17:03:02,467 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:03:03,752 __main__   ERROR  Error processing http://acropolis.org.uk/6a8fe646d6d543e8bf81a010888e8fcc.nq
-2015-06-03 17:03:03,753 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:03:07,859 __main__   ERROR  Error processing http://acropolis.org.uk/e8031f4164de4206a4ab4eafe04866da.nq
-2015-06-03 17:03:07,859 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:03:08,325 __main__   ERROR  Error processing http://acropolis.org.uk/f04a55a52bd14acc9e0777309c01786e.nq
-2015-06-03 17:03:08,325 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:04:05,609 __main__   ERROR  Error processing http://acropolis.org.uk/eae9151e1ed643ba9347c5a801225f45.nq
-2015-06-03 17:04:05,609 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:04:05,620 __main__   ERROR  Error processing http://acropolis.org.uk/4dd888df8e69429f941c9579b6f3d5ab.nq
-2015-06-03 17:04:05,620 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:04:33,052 __main__   ERROR  Error processing http://acropolis.org.uk/87c94451ae6445f080dca700ad38c160.nq
-2015-06-03 17:04:33,052 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:04:33,166 __main__   ERROR  Error processing http://acropolis.org.uk/c15c4172ab484b45ad06c0fa3d6b07a1.nq
-2015-06-03 17:04:33,167 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:04:37,453 __main__   ERROR  Error processing http://acropolis.org.uk/0f34a5c3f48144e4a23e8f976a9ec729.nq
-2015-06-03 17:04:37,454 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:04:44,068 __main__   ERROR  Error processing http://acropolis.org.uk/ec13a68ff1c64cad97f4ba6b1dd6a3d1.nq
-2015-06-03 17:04:44,068 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:00,148 __main__   ERROR  Error processing http://acropolis.org.uk/e4d449cd84cc4130934bc794139677f4.nq
-2015-06-03 17:05:00,148 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:00,165 __main__   ERROR  Error processing http://acropolis.org.uk/0e3d1cc709af466ca717a055eba9e5c5.nq
-2015-06-03 17:05:00,166 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:00,326 __main__   ERROR  Error processing http://acropolis.org.uk/0b15c18228724056982a06e94e1bad04.nq
-2015-06-03 17:05:00,326 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:04,827 __main__   ERROR  Error processing http://acropolis.org.uk/956c840272184907a80d36e2238cd551.nq
-2015-06-03 17:05:04,827 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:16,469 __main__   ERROR  Error processing http://acropolis.org.uk/57b43c22e2114e32bdae04cceada8422.nq
-2015-06-03 17:05:16,469 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:17,768 __main__   ERROR  Error processing http://acropolis.org.uk/2c2f758210274cfeb797b9edcf1b7261.nq
-2015-06-03 17:05:17,769 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:22,040 __main__   ERROR  Error processing http://acropolis.org.uk/b2c2117ac50043b19937a7bf2a77795f.nq
-2015-06-03 17:05:22,041 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:33,275 __main__   ERROR  Error processing http://acropolis.org.uk/6db90198bd7346b38186e5297fe2e937.nq
-2015-06-03 17:05:33,275 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:05:44,200 __main__   ERROR  Error processing http://acropolis.org.uk/bd6622608fed4db5a6b18e37da5a8533.nq
-2015-06-03 17:05:44,200 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:06:06,774 __main__   ERROR  Error processing http://acropolis.org.uk/6af4a62820374a33b210c16e2ba1ec09.nq
-2015-06-03 17:06:06,774 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:06:28,538 __main__   ERROR  Error processing http://acropolis.org.uk/c232fd20a1324dbdb69127b45d146cc9.nq
-2015-06-03 17:06:28,538 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:06:33,242 __main__   ERROR  Error processing http://acropolis.org.uk/2542b6003b2448e1a521a00db5c01edb.nq
-2015-06-03 17:06:33,242 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:06:33,369 __main__   ERROR  Error processing http://acropolis.org.uk/9590030259e14f2b8bec71b3b57b053e.nq
-2015-06-03 17:06:33,369 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:06:33,540 __main__   ERROR  Error processing http://acropolis.org.uk/2aeb2c0b176743a7a946db9f12fc4a01.nq
-2015-06-03 17:06:33,540 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:06:33,542 __main__   ERROR  Error processing http://acropolis.org.uk/c77840b10dbe40f2b0e820c1c3c9d04c.nq
-2015-06-03 17:06:33,542 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:07:06,149 __main__   ERROR  Error processing http://acropolis.org.uk/46cb3d01b2dd400dbcb4f493e59bc37b.nq
-2015-06-03 17:07:06,149 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:07:06,172 __main__   ERROR  Error processing http://acropolis.org.uk/e66ccba075fd469a990aab839b326589.nq
-2015-06-03 17:07:06,172 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:07:10,957 __main__   ERROR  Error processing http://acropolis.org.uk/7e7f4c1cd71c47e0bc1a30c6c9bb0dfc.nq
-2015-06-03 17:07:10,957 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:07:16,527 __main__   ERROR  Error processing http://acropolis.org.uk/01924e231ff947628b11e86a147b3df8.nq
-2015-06-03 17:07:16,527 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:08:06,826 __main__   ERROR  Error processing http://acropolis.org.uk/f35b0fcc50c946b4ac9a1840e054f0ae.nq
-2015-06-03 17:08:06,826 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:08:06,865 __main__   ERROR  Error processing http://acropolis.org.uk/4ef0299a6cf84dafacd81ad94bf9c624.nq
-2015-06-03 17:08:06,866 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:09:24,850 __main__   ERROR  Error processing http://acropolis.org.uk/7b77aa5c9c5748caae0ec2629a89b11b.nq
-2015-06-03 17:09:24,850 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:09:24,913 __main__   ERROR  Error processing http://acropolis.org.uk/706870b52f60465ba51ce0a1a1284bd4.nq
-2015-06-03 17:09:24,913 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:09:24,955 __main__   ERROR  Error processing http://acropolis.org.uk/8e405ef6172b4ef088116a1438972c15.nq
-2015-06-03 17:09:24,955 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:09:30,079 __main__   ERROR  Error processing http://acropolis.org.uk/668a815d06944324953f509625bea884.nq
-2015-06-03 17:09:30,080 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:09:53,155 __main__   ERROR  Error processing http://acropolis.org.uk/fb565c10f5c84264888c8abe62021569.nq
-2015-06-03 17:09:53,155 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:10:06,257 __main__   ERROR  Error processing http://acropolis.org.uk/d008b372204d4490a6e715718b1569b4.nq
-2015-06-03 17:10:06,257 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:10:11,360 __main__   ERROR  Error processing http://acropolis.org.uk/b07560cf7c30405e9b4cb2f338fa4999.nq
-2015-06-03 17:10:11,360 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:10:11,375 __main__   ERROR  Error processing http://acropolis.org.uk/e3115b9b87564aeab0eadec561749383.nq
-2015-06-03 17:10:11,376 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:10:16,352 __main__   ERROR  Error processing http://acropolis.org.uk/1604777fda44464da51634af7b627e5f.nq
-2015-06-03 17:10:16,352 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:10:21,869 __main__   ERROR  Error processing http://acropolis.org.uk/058467cc731d4cdaaf9244852c512b52.nq
-2015-06-03 17:10:21,869 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:11:22,555 __main__   ERROR  Error processing http://acropolis.org.uk/c9e72fc8feae4dc68272bb4a6948c836.nq
-2015-06-03 17:11:22,556 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:11:22,766 __main__   ERROR  Error processing http://acropolis.org.uk/840ba7b7eda44022b1c23907dd501114.nq
-2015-06-03 17:11:22,766 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:12:06,862 __main__   ERROR  Error processing http://acropolis.org.uk/b9eacdf0b3b24a569b3eb0b718c8521b.nq
-2015-06-03 17:12:06,862 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:12:43,653 __main__   ERROR  Error processing http://acropolis.org.uk/3d2af71275414919b4da78dbb157a027.nq
-2015-06-03 17:12:43,653 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:14:54,470 __main__   INFO   Store 72147 results in the DB
-2015-06-03 17:14:56,844 __main__   INFO   Processing /concepts
-2015-06-03 17:14:56,845 __main__   INFO   Fetching a list of http://www.w3.org/2004/02/skos/core#Concept
-2015-06-03 17:16:20,682 __main__   INFO   Got 10156 URIs to process
-2015-06-03 17:16:33,331 __main__   ERROR  Error processing http://acropolis.org.uk/302172f93f494303ae877bbba7e5bb6f.nq
-2015-06-03 17:16:33,331 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:16:54,810 __main__   ERROR  Error processing http://acropolis.org.uk/f4a3c101f4364ebc85ded4fd00e1d756.nq
-2015-06-03 17:16:54,810 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:16:54,832 __main__   ERROR  Error processing http://acropolis.org.uk/4b1be26b9fd448e49bedfcade7bac0eb.nq
-2015-06-03 17:16:54,832 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:16:54,840 __main__   ERROR  Error processing http://acropolis.org.uk/a484660bf8b84a0c88e6cd9d096d1722.nq
-2015-06-03 17:16:54,840 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:16:54,945 __main__   ERROR  Error processing http://acropolis.org.uk/0cdfccd4426b477b8d5a2b16ab281a04.nq
-2015-06-03 17:16:54,946 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:16:59,837 __main__   ERROR  Error processing http://acropolis.org.uk/da20416d831c4d88bb5fdd777199eb62.nq
-2015-06-03 17:16:59,837 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:17:04,959 __main__   ERROR  Error processing http://acropolis.org.uk/2eda0c9bb057468a947173d810db9c7b.nq
-2015-06-03 17:17:04,959 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:17:09,945 __main__   ERROR  Error processing http://acropolis.org.uk/eba3231e14c74173beddc7844772ad5a.nq
-2015-06-03 17:17:09,946 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:17:10,046 __main__   ERROR  Error processing http://acropolis.org.uk/590f9c884dd249a4bd12271978ce403d.nq
-2015-06-03 17:17:10,047 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:17:10,234 __main__   ERROR  Error processing http://acropolis.org.uk/7f273807d3f743e7b53a34169642669f.nq
-2015-06-03 17:17:10,234 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:17:25,068 __main__   ERROR  Error processing http://acropolis.org.uk/45d8a89045b344938f0807ba9353fb03.nq
-2015-06-03 17:17:25,068 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:17:55,643 __main__   ERROR  Error processing http://acropolis.org.uk/9746db53e11943fc9ca609c7b8cf8485.nq
-2015-06-03 17:17:55,644 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:17:57,945 __main__   ERROR  Error processing http://acropolis.org.uk/42abf2e7f28d46b89d99153dc409f615.nq
-2015-06-03 17:17:57,945 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:18:18,607 __main__   ERROR  Error processing http://acropolis.org.uk/28582381e4e64bfeb8880add22fdd635.nq
-2015-06-03 17:18:18,607 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:18:23,635 __main__   ERROR  Error processing http://acropolis.org.uk/1da83e91ff2f41c0826707d4725b832b.nq
-2015-06-03 17:18:23,636 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:18:23,904 __main__   ERROR  Error processing http://acropolis.org.uk/9ee237c177f3468b85be6afdfcea9d41.nq
-2015-06-03 17:18:23,905 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:18:34,345 __main__   ERROR  Error processing http://acropolis.org.uk/9460071ade3948568f7bc82bbf7feddf.nq
-2015-06-03 17:18:34,346 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:18:34,407 __main__   ERROR  Error processing http://acropolis.org.uk/a8a548c10191468fbba3569aaa953d1b.nq
-2015-06-03 17:18:34,408 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:18:50,082 __main__   ERROR  Error processing http://acropolis.org.uk/edc00ec39e68449e978ff479c1d64f06.nq
-2015-06-03 17:18:50,082 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:18:55,295 __main__   ERROR  Error processing http://acropolis.org.uk/8312c4bd8e03496daab238ef135db35d.nq
-2015-06-03 17:18:55,297 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:19:16,173 __main__   INFO   Store 10156 results in the DB
-2015-06-03 17:19:16,489 __main__   INFO   Processing Concept
-2015-06-03 17:19:16,489 __main__   INFO   Fetching a list of http://www.w3.org/TR/skos-reference/#concepts
-2015-06-03 17:19:16,707 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:19:16,707 __main__   INFO   Processing /works
-2015-06-03 17:19:16,708 __main__   INFO   Fetching a list of http://purl.org/vocab/frbr/core#Work
-2015-06-03 17:19:26,045 __main__   INFO   Got 1723 URIs to process
-2015-06-03 17:20:03,228 __main__   INFO   Store 1723 results in the DB
-2015-06-03 17:20:03,406 __main__   INFO   Processing /people
-2015-06-03 17:20:03,407 __main__   INFO   Fetching a list of http://xmlns.com/foaf/0.1/Person
-2015-06-03 17:20:03,628 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:20:03,629 __main__   INFO   Processing People
-2015-06-03 17:20:03,629 __main__   INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Person
-2015-06-03 17:20:03,766 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:20:03,767 __main__   INFO   Processing /agents
-2015-06-03 17:20:03,767 __main__   INFO   Fetching a list of http://xmlns.com/foaf/0.1/Agent
-2015-06-03 17:20:03,894 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:20:03,894 __main__   INFO   Processing Work
-2015-06-03 17:20:03,895 __main__   INFO   Fetching a list of http://vocab.org/frbr/core.html#Work
-2015-06-03 17:20:04,024 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:20:04,024 __main__   INFO   Processing Agent
-2015-06-03 17:20:04,026 __main__   INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Agent
-2015-06-03 17:20:04,159 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:20:04,159 __main__   INFO   Processing Dataset
-2015-06-03 17:20:04,160 __main__   INFO   Fetching a list of http://rdfs.org/ns/void#Dataset
-2015-06-03 17:20:04,437 __main__   INFO   Got 34 URIs to process
-2015-06-03 17:20:05,992 __main__   INFO   Store 34 results in the DB
-2015-06-03 17:20:05,994 __main__   INFO   Processing /groups
-2015-06-03 17:20:05,995 __main__   INFO   Fetching a list of http://xmlns.com/foaf/0.1/Group
-2015-06-03 17:20:06,115 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:20:06,115 __main__   INFO   Processing Physical thing
-2015-06-03 17:20:06,115 __main__   INFO   Fetching a list of http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing
-2015-06-03 17:20:06,244 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:20:06,245 __main__   INFO   Processing /events
-2015-06-03 17:20:06,246 __main__   INFO   Fetching a list of http://purl.org/NET/c4dm/event.owl#Event
-2015-06-03 17:20:21,833 __main__   INFO   Got 2791 URIs to process
-2015-06-03 17:20:54,986 __main__   ERROR  Error processing http://acropolis.org.uk/5dd143a199a944fba094bc477b834685.nq
-2015-06-03 17:20:54,986 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:20:55,007 __main__   ERROR  Error processing http://acropolis.org.uk/c437b8dbf50c4efa94d4f4f66d7da7cf.nq
-2015-06-03 17:20:55,007 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:21:10,852 __main__   INFO   Store 2791 results in the DB
-2015-06-03 17:21:10,945 __main__   INFO   Processing Collection
-2015-06-03 17:21:10,946 __main__   INFO   Fetching a list of http://purl.org/dc/dcmitype/Collection
-2015-06-03 17:21:11,326 __main__   INFO   Got 34 URIs to process
-2015-06-03 17:21:12,278 __main__   INFO   Store 34 results in the DB
-2015-06-03 17:21:12,280 __main__   INFO   Processing Organization
-2015-06-03 17:21:12,281 __main__   INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Organization
-2015-06-03 17:21:12,409 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:21:12,410 __main__   INFO   Processing Document
-2015-06-03 17:21:12,410 __main__   INFO   Fetching a list of http://xmlns.com/foaf/0.1/Document
-2015-06-03 17:21:23,193 __main__   INFO   Got 2038 URIs to process
-2015-06-03 17:21:35,306 __main__   ERROR  Error processing http://acropolis.org.uk/fb16889287d541ec85534ee7129b85c2.nq
-2015-06-03 17:21:35,306 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:21:55,796 __main__   ERROR  Error processing http://acropolis.org.uk/30586de52c674299b65bbaf61b23b641.nq
-2015-06-03 17:21:55,797 __main__   ERROR  ('Connection aborted.', gaierror(-2, 'Name or service not known'))
-2015-06-03 17:22:06,015 __main__   INFO   Store 2038 results in the DB
-2015-06-03 17:22:06,072 __main__   INFO   Processing Event
-2015-06-03 17:22:06,073 __main__   INFO   Fetching a list of http://motools.sourceforge.net/event/event.html#term_Event
-2015-06-03 17:22:06,202 __main__   INFO   Got 0 URIs to process
-2015-06-03 17:22:06,203 __main__   INFO   Processing Location
-2015-06-03 17:22:06,204 __main__   INFO   Fetching a list of http://www.w3.org/2003/01/geo/
-2015-06-03 17:22:06,349 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:29:36,357 __main__   INFO   Processing /places
+2015-06-04 01:29:36,361 __main__   INFO   Fetching a list of http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+2015-06-04 01:41:51,347 __main__   INFO   Got 73284 URIs to process
+2015-06-04 01:54:08,708 __main__   INFO   Store 73284 results in the DB
+2015-06-04 01:54:12,108 __main__   INFO   Processing /concepts
+2015-06-04 01:54:12,110 __main__   INFO   Fetching a list of http://www.w3.org/2004/02/skos/core#Concept
+2015-06-04 01:55:38,069 __main__   INFO   Got 10156 URIs to process
+2015-06-04 01:57:35,842 __main__   INFO   Store 10156 results in the DB
+2015-06-04 01:57:36,817 __main__   INFO   Processing Concept
+2015-06-04 01:57:36,819 __main__   INFO   Fetching a list of http://www.w3.org/TR/skos-reference/#concepts
+2015-06-04 01:57:37,648 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:57:37,653 __main__   INFO   Processing /works
+2015-06-04 01:57:37,658 __main__   INFO   Fetching a list of http://purl.org/vocab/frbr/core#Work
+2015-06-04 01:57:43,508 __main__   INFO   Got 1764 URIs to process
+2015-06-04 01:57:59,481 __main__   INFO   Store 1764 results in the DB
+2015-06-04 01:57:59,558 __main__   INFO   Processing /people
+2015-06-04 01:57:59,564 __main__   INFO   Fetching a list of http://xmlns.com/foaf/0.1/Person
+2015-06-04 01:58:00,112 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:58:00,116 __main__   INFO   Processing People
+2015-06-04 01:58:00,121 __main__   INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Person
+2015-06-04 01:58:00,468 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:58:00,473 __main__   INFO   Processing /agents
+2015-06-04 01:58:00,478 __main__   INFO   Fetching a list of http://xmlns.com/foaf/0.1/Agent
+2015-06-04 01:58:01,778 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:58:01,782 __main__   INFO   Processing Work
+2015-06-04 01:58:01,786 __main__   INFO   Fetching a list of http://vocab.org/frbr/core.html#Work
+2015-06-04 01:58:02,270 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:58:02,275 __main__   INFO   Processing Agent
+2015-06-04 01:58:02,279 __main__   INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Agent
+2015-06-04 01:58:02,636 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:58:02,640 __main__   INFO   Processing Dataset
+2015-06-04 01:58:02,644 __main__   INFO   Fetching a list of http://rdfs.org/ns/void#Dataset
+2015-06-04 01:58:03,024 __main__   INFO   Got 34 URIs to process
+2015-06-04 01:58:04,769 __main__   INFO   Store 34 results in the DB
+2015-06-04 01:58:04,776 __main__   INFO   Processing /groups
+2015-06-04 01:58:04,872 __main__   INFO   Fetching a list of http://xmlns.com/foaf/0.1/Group
+2015-06-04 01:58:05,214 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:58:05,217 __main__   INFO   Processing Physical thing
+2015-06-04 01:58:05,221 __main__   INFO   Fetching a list of http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing
+2015-06-04 01:58:05,566 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:58:05,570 __main__   INFO   Processing /events
+2015-06-04 01:58:05,574 __main__   INFO   Fetching a list of http://purl.org/NET/c4dm/event.owl#Event
+2015-06-04 01:58:14,739 __main__   INFO   Got 2847 URIs to process
+2015-06-04 01:58:40,837 __main__   INFO   Store 2847 results in the DB
+2015-06-04 01:58:41,579 __main__   INFO   Processing Collection
+2015-06-04 01:58:41,581 __main__   INFO   Fetching a list of http://purl.org/dc/dcmitype/Collection
+2015-06-04 01:58:41,991 __main__   INFO   Got 34 URIs to process
+2015-06-04 01:58:43,330 __main__   INFO   Store 34 results in the DB
+2015-06-04 01:58:43,333 __main__   INFO   Processing Organization
+2015-06-04 01:58:43,335 __main__   INFO   Fetching a list of http://xmlns.com/foaf/spec/#term_Organization
+2015-06-04 01:58:43,937 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:58:43,939 __main__   INFO   Processing Document
+2015-06-04 01:58:43,942 __main__   INFO   Fetching a list of http://xmlns.com/foaf/0.1/Document
+2015-06-04 01:58:49,152 __main__   INFO   Got 2081 URIs to process
+2015-06-04 01:59:12,448 __main__   INFO   Store 2081 results in the DB
+2015-06-04 01:59:12,585 __main__   INFO   Processing Event
+2015-06-04 01:59:12,588 __main__   INFO   Fetching a list of http://motools.sourceforge.net/event/event.html#term_Event
+2015-06-04 01:59:12,976 __main__   INFO   Got 0 URIs to process
+2015-06-04 01:59:12,978 __main__   INFO   Processing Location
+2015-06-04 01:59:12,980 __main__   INFO   Fetching a list of http://www.w3.org/2003/01/geo/
+2015-06-04 01:59:13,795 __main__   INFO   Got 0 URIs to process

@@ -1,5 +1,5 @@
 from pymongo.mongo_client import MongoClient
-from resplorer.codes import STAT_SECOND_HAND, STAT_PUB_CHAIN, STAT_NB_SOURCES, \
+from codes import STAT_SECOND_HAND, STAT_PUB_CHAIN, STAT_SOURCES, \
     STAT_TRIPLES, DESC_URI, DESC_TYPE
 
 import logging
@@ -27,6 +27,8 @@ if __name__ == '__main__':
     chains = {}
     triples = {'all':0, 'second':0}
     instances = {}
+    sources = set()
+    
     count = 0
     for post in db.posts.find():
         count = count + 1
