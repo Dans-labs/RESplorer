@@ -4,6 +4,7 @@ from codes import STAT_SECOND_HAND, STAT_PUB_CHAIN, STAT_SOURCES, \
 
 import logging
 import math
+from resplorer.codes import DESC_URI
 logger = logging.getLogger(__name__)
 
 if __name__ == '__main__':
@@ -71,6 +72,16 @@ if __name__ == '__main__':
     for (k, v) in sources.iteritems():
         print "\t{1} : {0}".format(k, v)
 
+    # Track down weird hostnames
+    with open('weird.txt', 'w') as output_file:
+        for post in db.posts.find():
+            weird = False
+            for chain in post[STAT_PUB_CHAIN]:
+                weird = weird or chain.startswith('233a')
+            if weird:
+                output_file.write("{}\n".format(post[DESC_URI]))
+           
+    
     # Prepare the gdl file
     colors = []
     with open('graph.gdl', 'w') as output_file:
